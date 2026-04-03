@@ -30,11 +30,11 @@ Simular operações básicas de um sistema bancário para praticar fundamentos d
 ---
 
 ## 🧱 Estrutura do Projeto
-src/
-├── dtos/ # Objetos de transferência de dados (records)
-├── entities/ # Regras de negócio (ex: Bank)
-├── Enums/ # Tipos e status de transações
-└── Main.java # Execução do sistema
+    src/
+    ├── dtos/        # Objetos de transferência de dados (records)
+    ├── entities/    # Regras de negócio (ex: Bank)
+    ├── Enums/       # Tipos e status de transações
+    └── Main.java    # Execução do sistema
 
 ---
 
@@ -47,14 +47,14 @@ src/
 ---
 
 ## 📌 Exemplo de saída
-Valor depositado: 521.0
-Limite disponível de cheque especial: 260.5
-Valor retirado: 130.0
-Saldo devedor do cheque especial: 0.0
+    Valor depositado: 521.0
+    Limite disponível de cheque especial: 260.5
+    Valor retirado: 130.0
+    Saldo devedor do cheque especial: 0.0
 
-Tipo: Depósito | Valor: R$ 521.0 | Status: Sucesso
-Tipo: Saque | Valor: R$ 130.0 | Status: Sucesso
-Tipo: Cheque especial | Valor: R$ 270.0 | Status: Falhou
+    Tipo: Depósito | Valor: R$ 521.0 | Status: Sucesso
+    Tipo: Saque | Valor: R$ 130.0 | Status: Sucesso
+    Tipo: Cheque especial | Valor: R$ 270.0 | Status: Falhou
 
 ---
 
@@ -84,6 +84,4 @@ Projeto desenvolvido como prática durante o bootcamp da Accenture na DIO, com f
 ---
 
 ## 👨‍💻 Autor
-
-Matheus Garcia  
 https://github.com/garciamendes
